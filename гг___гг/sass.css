@@ -1,0 +1,24 @@
+.site-navigation ul {
+  background: #eee;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around; }
+.site-navigation a {
+  color: #333;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem; }
+  .site-navigation a:hover {
+    background: #d5d5d5; }
+
+@media all and (max-width: 600px) {
+  .site-navigation ul {
+    flex-flow: column wrap;
+    padding: 0; } }
+body {
+  margin: 0; }
+
+/*# sourceMappingURL=sass.css.map */
