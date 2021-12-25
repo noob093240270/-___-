@@ -7,7 +7,7 @@ console.log(qwert)
 qwert.addEventListener("click", (e)=>{
     e.preventDefault()
     if(parol.value=="123" && login.value=="123"){
-        window.location.href="qwer/Untitled-444.html"
+        window.location.href="index (2).html"
     }
     else{
         alert("1")
